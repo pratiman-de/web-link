@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "URL Opener",
+    "version": "1.0",
+    "description": "A Chrome extension to open URLs from a text file.",
+    "permissions": ["tabs"],
+    "icons": {
+      "48": "icon.png"
+    },
+    "browser_action": {
+      "default_popup": "upload.html",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  
